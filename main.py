@@ -39,7 +39,7 @@ def get_keyboard(mode=BotModes.MAIN):
 
 
 def start_bot_server():
-    bot = telebot.TeleBot("5856704254:AAHqxHI6GphS9zeROEXnt4L2GhbSZ2FkBdk")  # , parse_mode=None
+    bot = telebot.TeleBot("TOKEN_HERE")  # , parse_mode=None
     bot_mode = BotMode()
     tic_tac_toe = TicTacToe()
     phonebook = Phonebook()
